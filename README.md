@@ -3,7 +3,7 @@
 We are supposed to simulate a page table and give a sequence of memory accesses and whether each access was read or write, you are supposed to output the number of page faults, the number of reads from the disk, and the number of writes to the disk. The specifications are given below.
 ## Details
 * You need to implement 5 strategies, OPT, FIFO, CLOCK, LRU, and RANDOM.
-* Your program will input a trace file named trace.in, an integer denoting the number of frames available, and a string that would denote the strategy. For instance, if the executable is named foo, then an example command that should work is '''' ./foo trace.in 100 OPT ''''
+* Your program will input a trace file named trace.in, an integer denoting the number of frames available, and a string that would denote the strategy. For instance, if the executable is named foo, then an example command that should work is ```` ./foo trace.in 100 OPT ````
 (iii) The trace file is a list of virtual memory addresses followed by letter "R" or "W", which
 would indicate whether the memory access was a read or write. Each line of the trace file
 would have one such memory access. A part of the file might look like the following.
