@@ -1,6 +1,6 @@
 # Page-Replacement-Strategies
 ## Problem Statment
-We are supposed to simulate a page table and give a sequence of memory accesses and whether each access was read or write, you are supposed to output the number of page faults, the number of reads from the disk, and the number of writes to the disk. The specifications are given below.
+We are supposed to simulate a page table and give a sequence of memory accesses and whether each access was read or write, we are supposed to output the number of page faults, the number of reads from the disk, and the number of writes to the disk. The specifications are given below.
 ## Details
 * You need to implement 5 strategies, OPT, FIFO, CLOCK, LRU, and RANDOM.
 * Your program will input a trace file named trace.in, an integer denoting the number of frames available, and a string that would denote the strategy. For instance, if the executable is named foo, then an example command that should work is ```` ./foo trace.in 100 OPT ````
